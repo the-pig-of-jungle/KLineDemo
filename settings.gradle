@@ -1,1 +1,1 @@
-include ':DataBindingDemo', ':data-binding', ':live-data', ':livedatademo'
+include ':DataBindingDemo', ':data-binding', ':live-data', ':LiveDataDemo'
