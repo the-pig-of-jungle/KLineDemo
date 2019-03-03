@@ -3,6 +3,7 @@ package com.coder.zzq.mvvm;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ImageView;
 
 import com.coder.zzq.mvvm.databinding.ActivityMainBinding;
 
@@ -23,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
                 obUser.getFirstName().set("zhiqiang");
             }
         }, 5000);
+        ImageView imageView;
     }
 }

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
+
+        <import type="com.coder.zzq.mvvm.R" />
 
         <variable
             name="user"
@@ -22,5 +25,6 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:text="@{user.lastName}" />
+
     </LinearLayout>
 </layout>
